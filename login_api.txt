@@ -1,0 +1,29 @@
+(id-pwd) =admin -admin  (tset1)
+ (id-pwd) =admin12-Abc@1234
+
+####(id-pwd) -customer (test2)
+ranjan10
+Abc@1234
+
+####(id-pwd) -staff (test3)
+ranjan15
+Abc@1234
+ranjan15@gmail.com
+
+####(id-pwd)
+ranjan11
+Abc@1234
+ranjan11@gmail.com
+
+##### 
+1. login Working > rediract to dashboard 
+             > error handling (incorrect Password)
+            /login (page restrict**) //Admin User name.each apge
+2. Regstration  > ...(Not Ristricted)(without login user cannot see)
+3. Login Restricted (Can not visit any page)
+
+(logout is Not Working)
+################################
+############ Multi Auth - Multi_User_Permison#########
+################################
+################################

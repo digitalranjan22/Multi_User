@@ -1,0 +1,59 @@
+{% extends 'accounts/main.html' %}
+
+
+
+{% block content %}
+
+{% include 'accounts/status.html' %}
+ <br>
+<div class="row">
+    <div class="col-md-5">
+        <h5>Employee:</h5>
+        <hr>
+        <div class="card card-body"> 
+            <a class="btn btn-primary btn-sm btn-block" href="">Add Employee</a>  
+            <table>
+                <tr>
+                    <!-- <th></th> -->
+                    <th>Employee</th>
+                    <th>Project</th>
+                </tr>
+               
+            </table>
+        </div>
+    </div>
+    <!-- other table  -->
+    <div class="col-md-7">
+        <h5>Last 5 Projects</h5>
+        <hr>
+        <div class="card card-body">
+            <a class="btn btn-primary btn-sm btn-block" href="">App Project</a>
+            <table class="table table-sm">
+                <tr>
+                    <th>Product</th>
+                    <th>Date Ordered</th>
+                    <th>Status</th>
+                    <th>Update</th>
+                    <th>Remove</th>
+
+                </tr>
+                
+            </table>
+
+        </div>
+    </div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+{% endblock %}
+
